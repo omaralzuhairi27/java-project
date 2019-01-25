@@ -1,4 +1,4 @@
-package Week9.Solutions.ex4;
+package Week9.ExerciseSolutions.ex4;
 
 import exercise.week9.reader.FileReader;
 

@@ -71,7 +71,7 @@ public class StudentSummarizer {
         summarizer.checkGirlsAndBoysNumber("female");
         summarizer.checkGirlsAndBoysNumber("male");
         summarizer.educationSortedAlphabetically();
-        summarizer.scoresHigher();
+       // summarizer.scoresHigher();
 
     }
 }

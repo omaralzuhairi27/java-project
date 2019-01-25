@@ -1,4 +1,4 @@
-package Week9.Solutions.ex3;
+package Week9.ExerciseSolutions.ex3;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package Week9.Solutions.ex5;
+package Week9.ExerciseSolutions.ex5;
 
 
 import java.util.Comparator;

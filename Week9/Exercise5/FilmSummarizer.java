@@ -19,7 +19,7 @@ public class FilmSummarizer {
                 .filter(e1->e1.getRunTime()>180)
                 .sorted((e1,e2)->e2.getScore().compareTo(e1.getScore()) )
                 .limit(3)
-                .forEach(e -> System.out.println("Title: "+e.getTitle()+"  rating: "+e.getScore()+"runTime: "+e.getRunTime()));
+                .forEach(e -> System.out.format("Title: %s rating: %s runTime: %s \n",e.getTitle(),e.getScore(),e.getRunTime()));
 
     }
     public void sortedByBudget(){

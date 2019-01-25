@@ -1,4 +1,4 @@
-package Week9.Solutions.ex3;
+package Week9.ExerciseSolutions.ex3;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -28,12 +28,18 @@ public class Caesar {
         return cipherLetter;
     }
 
+
     private boolean isNotAlphabetic(String letter) {
         return !Character.isAlphabetic(letter.charAt(0));
     }
 
     private boolean isUpperCase(String letter) {
         return Character.isUpperCase(letter.charAt(0));
+    }
+
+    public static void main(String[] args) {
+        Caesar caesar=new Caesar();
+        caesar.cipher("b",3);
     }
 
 }

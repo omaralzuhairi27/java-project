@@ -1,4 +1,4 @@
-package Week9.Solutions.ex1;
+package Week9.ExerciseSolutions.ex1;
 
 import java.util.ArrayList;
 import java.util.List;

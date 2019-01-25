@@ -1,4 +1,4 @@
-package Week9.Solutions.ex2;
+package Week9.ExerciseSolutions.ex2;
 
 import Week9.robodog.FileReader;
 import org.junit.jupiter.api.Assertions;
